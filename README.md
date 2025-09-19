@@ -1,4 +1,18 @@
-# DOM project
+## FIRST GAME OUT OF HTML, CSS AND VAINILLA JS 🕹️
+
+I've choosen to go on a twist on the classic "Mrs Pacman" and created a "Escape the Pacman" version.
+
+It's a very simple game (and still improving!) in wich you have to gather 10 coins points to win without the Pacman catching you.
+Be careful of the swords and remember that you are the ghost!
+
+Use WASD to move around.
+
+Enjoy!
+
+##THIS IS A PRACTICAL EXERCISE FOR CODEOP'S FRONTEND BOOTCAMP -- ORIGINAL INSTRUCCTIONS ⬇️
+
+
+__# DOM project
 
 En aquesta activitat crearàs un joc el DOM, HTML i CSS.
 
@@ -148,4 +162,4 @@ Com hem aconseguit les possibles combinacions? A partir d'aquests valors, podem 
 
 ## Notes
 
-_Aquest és un projecte d'estudiant creat a [CodeOp](http://CodeOp.tech), al bootcamp de Front End Development a Barcelona._
+_Aquest és un projecte d'estudiant creat a [CodeOp](http://CodeOp.tech), al bootcamp de Front End Development a Barcelona.__
