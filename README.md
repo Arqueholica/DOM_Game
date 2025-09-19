@@ -1,4 +1,4 @@
-                        ## FIRST GAME OUT OF HTML, CSS AND VAINILLA JS 🕹️
+## FIRST GAME OUT OF HTML, CSS AND VAINILLA JS 🕹️
 
 I've choosen to go on a twist on the classic "Mrs Pacman" and created a "Escape the Pacman" version.
 
