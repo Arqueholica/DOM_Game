@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <script src="index.js" defer></script>
+
+    <title>Escape the Pacman</title>
+  </head>
+
+  <body class="grid grid-rows-[80px_650px]">
+    
+    <!-- MENÚ DE JUEGO + PUNTOS + VIDAS -->
+
+    <header class="row-start-1 bg-black">
+      <div class="gridMenu">
+        <nav id="menu" class="gridNav">
+          <!-- <button id="pausa" class="px-2">Pausa</button> SOLO SI AL FINAL PONGO TIMER -->
+          <button id="restart" type="button" class="buttonNav">Restart</button>
+          <button id="exit" type="button" class="buttonNav">Exit</button>
+        </nav>
+
+        <div class="titlePral"><h1 >ESCAPE THE PACMAN</h1></div>
+
+        <div class="gridLife">
+          <p><img src="./img/Monedas.png" class="w-[80px] hover:scale-110" /></p>
+          <p id="puntos" class="text-4xl font-propia">0</p>
+
+          <p><img src="./img/Cor.png" class="w-[40px] hover:scale-110" /></p>
+          <p id="vidas" class="text-4xl font-propia">3</p>
+          <!-- <p id="time">Timer:</p> SI TE VIENES ARRIBA LO PONES -->
+        </div>
+      </div>
+    </header>
+
+    <!-- MAPA DE JUEGO con grid ¿? mejor canvas porque permite coordenadas que es lo que quiero; mejor un div-->
+
+    <div class="row-start-2 mt-1 p-6 bg-green-500"> 
+      
+      <!-- INSTRUCCIONES -->
+      
+      <div class="absolute top-[300px] left-[1225px] w-[275px] instrucciones">
+        Objetivo:<br>suma 10 montones de oro</div>
+      
+      <div class="absolute top-[225px] left-[20px] w-[275px] instrucciones">
+         Usa las teclas WASD <br>para mover al fantasma</div>
+
+      <div class="absolute top-[400px] left-[20px] w-[275px] instrucciones">
+          PISTA:<br> recuerda que eres un fantasma</div>
+  
+
+      <!-- MAPA Y BICHITOS -->
+
+         <div id="map" class="bg-slate-500 border-8 border-black place-self-center w-[900px] h-[550px] relative">
+        
+        <img id="personaje" class="absolute" src="./img/Fantasmita.png" width="30px"/>
+        <img id="enemigo" class="absolute" src="./img/Pacman.png" width="35px"/>
+        
+        <img id="dineros" class="absolute" src="./img/Monedas.png" width="45px"/>
+        <img id="dineros2" class="absolute" src="./img/Monedas.png" width="45px"/>
+        <img id="dineros3" class="absolute" src="./img/Monedas.png" width="45px"/>
+        <img id="dineros4" class="absolute" src="./img/Monedas.png" width="45px"/>
+        <img id="dineros5" class="absolute" src="./img/Monedas.png" width="45px"/>
+        
+
+        <img id="cor" class="absolute" src="./img/Cor.png" width="20px"/>
+        <img id="cor2" class="absolute" src="./img/Cor.png" width="20px"/>
+        
+        <img id="espada" class="absolute" src="./img/Espada.png" width="40px"/>
+        <img id="espada2" class="absolute" src="./img/Espada.png" width="40px"/>
+        <img id="espada3" class="absolute" src="./img/Espada.png" width="40px"/>
+      
+
+        <img id="pared1" class="w-[200px] h-[100px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+        <img id="pared2" class="w-[200px] h-[100px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+        <img id="pared3" class="w-[200px] h-[100px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+        <img id="pared4" class="w-[200px] h-[100px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+        <img id="pared5" class="w-[100px] h-[200px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+        <img id="pared6" class="w-[250px] h-[100px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+        <img id="pared7" class="w-[250px] h-[100px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+        <img id="pared8" class="w-[250px] h-[100px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+        <img id="pared9" class="w-[250px] h-[100px] absolute object-cover opacity-70" src="./img/Pared.png"/>
+      </div>
+    </div>
+  </body>
+</html>
