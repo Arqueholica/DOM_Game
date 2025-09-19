@@ -2,7 +2,5 @@
   "name": "dom-project",
   "version": "1.0.0",
   "author": "Germinal Camps for CodeOp",
-  "license": "Proprietary",
-  // No scripts necesarios para producción estática en Vercel
-  // Dependencias de desarrollo eliminadas para producción
+  "license": "Proprietary"
 }
